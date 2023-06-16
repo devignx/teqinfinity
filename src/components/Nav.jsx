@@ -9,6 +9,9 @@ import { useState } from "react";
 const Nav = () => {
 
     const [mobNav,setMobNav] = useState(false);
+    const scrolldown = () => {
+        window.scrollTo({top: 10000, left: 0, behavior: 'smooth'});
+    }
 
     return(
         <>
@@ -18,7 +21,7 @@ const Nav = () => {
                     <Link to='/' className={`text-lg py-6 target:text-tqred hover:text-tqred anim`}>Home</Link>
                     <Link to='/about-us' id='about-us' className="text-lg py-6 target:text-tqred hover:text-tqred anim">About Us</Link>
                     <div className="relative peer py-6">
-                        <Link to='/network-services' className="text-lg peer py-6 h-max active:text-tqred hover:text-tqred anim">Network Services</Link>
+                        <Link to='/network-services' className="text-lg peer py-6 h-max active:text-tqred hover:text-tqred anim">Network Services <span className="text-xs ">+</span></Link>
                         <div className="flex flex-col overflow-hidden text-sm topppp -translate-y-[160px] peer-hover:translate-y-0 peer-hover:scale-y-100 hover:scale-100 hover:opacity-100 hover:translate-y-0 scale-y-0 opacity-0 peer-hover:opacity-100 anim absolute rounded-2xl rounded-tr-none drop-shadow-lg top-0 right-0 mt-16 anim bg-[#f9f6ff] w-max">
                             <Link to='/network-services#enterprise' className="py-4 px-6 hover:bg-tqred hover:text-white anim border-b border-tqred/10">Enterprise Networking</Link>
                             <Link to='/network-services#datacenter' className="py-4 px-6 h-max hover:bg-tqred hover:text-white anim border-b border-tqred/10">Datacenter Networking</Link>
@@ -27,7 +30,7 @@ const Nav = () => {
                             <Link to='/network-services#support-services' className="py-4 px-6 hover:bg-tqred hover:text-white anim">Network Support Services</Link>
                         </div>
                     </div>
-                    <Link to='/' className="text-lg py-6 active:text-tqred hover:text-tqred anim">Contact</Link>
+                    <button onClick={scrolldown} className="text-lg py-6 active:text-tqred hover:text-tqred anim">Contact</button>
                 </div>
             </div>
             <div className="topppp ">
@@ -54,7 +57,6 @@ const Nav = () => {
                             <Link to='/network-services#support-services' className="py-4 ">Network Support Services</Link>
                         </div>
                     </div>
-                    <Link to='/' className="text-lg py-3 active:text-tqred hover:text-tqred anim">Contact</Link>
                 </div>
             </div>
         </>

@@ -25,6 +25,7 @@ const Home = () => {
             key="hom"
             initial={{opacity:0}}
             animate={{opacity:1}}
+            transition={{duration:.6}}
             >
                 <Nav className='topppp'/><div className="md:mt-12"></div>
                 <div className="">

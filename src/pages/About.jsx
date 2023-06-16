@@ -16,6 +16,7 @@ const About = () => {
         key="about"
         initial={{opacity:0}}
         animate={{opacity:1}}
+        transition={{duration:.6}}
         >
             <Nav className='topppp'/><div className="md:mt-36   "></div>
             <div className="w-10/12 md:w-4/6 mt-10 md:mt-12 mx-auto">

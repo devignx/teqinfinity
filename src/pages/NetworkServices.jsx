@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import Nav from "../components/Nav";
 import { useEffect } from "react";
+import { motion } from "framer-motion";
 
 const NetworkServices = () => {
     
@@ -9,12 +10,17 @@ const NetworkServices = () => {
       }, []);
 
     return(
-        <main>
+        <motion.main
+        key="about"
+        initial={{opacity:0}}
+        animate={{opacity:1}}
+        transition={{duration:.6}}
+        >
             <Nav/>
             <div className="w-11/12 md:w-4/6 mt-24 mx-auto">
                 <p>NetworkServices</p>
             </div>
-        </main>
+        </motion.main>
     )
 }
 
