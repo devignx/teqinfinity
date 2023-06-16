@@ -1,6 +1,6 @@
 import Home from './pages/Home';
 import About from './pages/About'
-import Solutions from './pages/Solutions'
+import NetworkServices from './pages/NetworkServices'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
       <Routes>
         <Route element={<Home/>} path="/"/>
         <Route element={<About/>} path="/about-us"/>
-        <Route element={<Solutions/>} path="/solutions"/>
+        <Route element={<NetworkServices/>} path="/network-services"/>
       </Routes>
     </BrowserRouter>
   );

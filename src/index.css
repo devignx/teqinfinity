@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@200;300;400;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,400;0,500;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -6,17 +6,18 @@
 
 @layer components {
   .anim {
-    @apply transition-all duration-300 ease-in-out;
+    @apply transition-all duration-[400ms] ease-in-out;
   }
 }
 
 body{
   background-color: #f9f6ff;
-  font-family: Lexend;
+  font-family: Lato, sans-serif;
   color: rgb(0, 0, 0);
 }
-
-
+.hd{
+  font-family: 'Barlow Condensed';
+}
 
 /*---------------HP Classics---------------*/
 
