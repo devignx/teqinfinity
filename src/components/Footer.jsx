@@ -29,13 +29,13 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="sm:block md:hidden  text-center md:text-left lg:block">
-                    <h2 className="text-xl text-center md:text-left break-before-avoid font-bold mb-6">Network Services</h2>
+                    <h2 className="text-xl text-center md:text-left break-before-avoid font-bold mb-6">Services</h2>
                     <div className="flex flex-col mx-auto text-white/70 items-center md:items-start gap-4">
-                        <Link to='/network-services#enterprise' className="">Enterprise Networking</Link>
-                        <Link to='/network-services#datacenter' className="">Datacenter Networking</Link>
-                        <Link to='/network-services#software-defined-networking' className="">Software Defined Networking</Link>
-                        <Link to='/network-services#security-threat-mgmt' className="">Network Security & Threat management</Link>
-                        <Link to='/network-services#support-services' className=" ">Network Support Services</Link>
+                            <Link to='/network-services'>Network Services</Link>
+                            <Link to='/cloud-services'>Cloud Services</Link>
+                            <Link to='/datacenter-services'>Datacenter Infrastructure Services</Link>
+                            <Link to='/end-user-services'>End User Services</Link>
+                            <Link to='/software-development'>Software Development</Link>
                     </div>
                 </div>
                 <div className="md:w-3/6 lg:w-1/4">
