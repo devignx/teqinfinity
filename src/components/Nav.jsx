@@ -35,7 +35,7 @@ const Nav = () => {
             </div>
             <div className="topppp ">
                 {   !mobNav &&
-                    <button onClick={()=> setMobNav(true)} className="bg-white flex items-center justify-center gap-2 h-12 shadow-md rounded-e-full fixed left-0 top-4 mob">
+                    <button onClick={()=> setMobNav(true)} className="bg-white toppppp flex items-center justify-center gap-2 h-16 shadow-md rounded-e-full fixed left-0 top-4 mob">
                         <p className="ml-2">☰</p>
                         <img className="w-8 mr-4" src={icon} alt="icon" />
                     </button>

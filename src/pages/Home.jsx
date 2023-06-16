@@ -27,7 +27,7 @@ const Home = () => {
             animate={{opacity:1}}
             transition={{duration:.6}}
             >
-                <Nav className='topppp'/><div className="md:mt-12"></div>
+                <Nav className='toppppp'/><div className="md:mt-12"></div>
                 <div className="">
                     <img className="w-full brightness-50 h-[70vh] botttt object-cover" src={nwbg} />
                     <motion.div
