@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 import logo from '../assets/Logo-h.svg'
-import icon from '../assets/icon.svg'
+import icon from '../assets/Icon.svg'
 
 import {IoCloseCircleOutline} from 'react-icons/io5'
 import { useState } from "react";
