@@ -18,11 +18,10 @@ function App() {
         <Route element={<About/>} path="/about-us"/>
         <Route element={<Contact/>} path="/contact"/>
         <Route element={<NetworkServices/>} path="/network-services"/>
-        <Route path='/network-services' element={<NetworkServices/>}/>
-        <Route path='/cloud-services' element={<CloudServices/>}/>
-        <Route path='/datacenter-services' element={<DatacenterServices/>}/>
-        <Route path='/end-user-services' element={<EndUserServices/>}/>
-        <Route path='/software-development' element={<SoftwareDevelopment/>}/>
+        <Route element={<CloudServices/>} path='/cloud-services'/>
+        <Route element={<DatacenterServices/>} path='/datacenter-services'/>
+        <Route element={<EndUserServices/>} path='/end-user-services'/>
+        <Route element={<SoftwareDevelopment/>} path='/software-development'/>
       </Routes>
     </BrowserRouter>
   );
