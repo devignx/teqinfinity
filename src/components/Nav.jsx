@@ -55,7 +55,9 @@ const Nav = () => {
                             <Link to='/end-user-services' className="py-2 text-black/70">End User Services</Link>
                             <Link to='/software-development' className="py-2 text-black/70">Software Development</Link>
                         </div>
+                    <Link to='/contact' id='about-us' className="text-lg py-3 pt-6 block target:text-tqred hover:text-tqred anim">Contact Us</Link>
                     </div>
+                <a className="text-xs fixed bottom-8 centerh">Copyrights Recieved &copy; 2023</a>
                 </div>
             </div>
         </>
