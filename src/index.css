@@ -19,6 +19,15 @@ body{
   font-family: 'Barlow Condensed';
 }
 
+li::marker {
+  color: #C60038;
+}
+
+li {
+  list-style-type: '❉';
+  padding-inline-start: 1.5ch;
+}
+
 /*---------------HP Classics---------------*/
 
 

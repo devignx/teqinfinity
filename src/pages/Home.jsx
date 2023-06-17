@@ -47,7 +47,7 @@ const Home = () => {
                         whileInView={{opacity:1, y:0}}
                         transition={{duration:1}}
                         className="w-full md:mt-12 pointer-events-none absolute top-0 botttt h-[70vh] flex flex-col justify-center items-center">
-                            <h1 className="hd text-white font-medium text-3xl md:text-5xl shadow-xl mb-8 toppp">Welcome to Teqinfinity INC</h1>
+                            <h1 className="hd text-white font-medium text-3xl md:text-5xl  mb-8 toppp">Welcome to Teqinfinity INC</h1>
                             <p className="text-white font-light text-center w-10/12 -mt-6 opacity-75 mb-5">We provide world class Networking, Infrastructure, Computing & so many other services</p>
                             <Link className="bg-white md:scale-90 hover:scale-95 anim pointer-events-auto text-tqred px-12 py-3 md:py-4 text-sm md:text-base" to='/about-us'>Learn More</Link>
                         </motion.div> 
@@ -59,7 +59,7 @@ const Home = () => {
                         whileInView={{opacity:1, y:0}}
                         transition={{duration:1}}
                         className="w-full md:mt-12 pointer-events-none absolute top-0 botttt h-[70vh] flex flex-col justify-center items-center">
-                            <h1 className="hd text-white font-medium text-3xl md:text-5xl shadow-xl mb-8 toppp">Network Services</h1>
+                            <h1 className="hd text-white font-medium text-3xl md:text-5xl  mb-8 toppp">Network Services</h1>
                             <p className="text-white font-light text-center w-10/12 -mt-6 opacity-75 mb-5">We provide world class Networking, Infrastructure, Computing & so many other services</p>
                             <Link className="bg-white md:scale-90 hover:scale-95 anim pointer-events-auto text-tqred px-12 py-3 md:py-4 text-sm md:text-base" to='/network-services'>Learn More</Link>
                         </motion.div> 
@@ -71,7 +71,7 @@ const Home = () => {
                         whileInView={{opacity: 1, y:0}}
                         transition={{duration:1}}
                         className="w-full md:mt-12 pointer-events-none absolute top-0 botttt h-[70vh] flex flex-col justify-center items-center">
-                            <h1 className="hd text-white font-medium text-3xl md:text-5xl shadow-xl mb-8 toppp">Cloud Services</h1>
+                            <h1 className="hd text-white font-medium text-3xl md:text-5xl  mb-8 toppp">Cloud Services</h1>
                             <p className="text-white font-light text-center w-10/12 -mt-6 opacity-75 mb-5">We provide world class Networking, Infrastructure, Computing & so many other services</p>
                             <Link className="bg-white md:scale-90 hover:scale-95 anim pointer-events-auto text-tqred px-12 py-3 md:py-4 text-sm md:text-base" to='/cloud-services'>Learn More</Link>
                         </motion.div> 
@@ -83,7 +83,7 @@ const Home = () => {
                         whileInView={{opacity:1, y:0}}
                         transition={{duration:1}}
                         className="w-full md:mt-12 pointer-events-none absolute top-0 botttt h-[70vh] flex flex-col justify-center items-center">
-                            <h1 className="hd text-white font-medium text-3xl md:text-5xl shadow-xl mb-8 toppp">Data center Services</h1>
+                            <h1 className="hd text-white font-medium text-3xl md:text-5xl  mb-8 toppp">Data center Services</h1>
                             <p className="text-white font-light text-center w-10/12 -mt-6 opacity-75 mb-5">We provide world class Networking, Infrastructure, Computing & so many other services</p>
                             <Link className="bg-white md:scale-90 hover:scale-95 anim pointer-events-auto text-tqred px-12 py-3 md:py-4 text-sm md:text-base" to='/datacenter-services'>Learn More</Link>
                         </motion.div> 
@@ -95,7 +95,7 @@ const Home = () => {
                         whileInView={{opacity:1, y:0}}
                         transition={{duration:1}}
                         className="w-full md:mt-12 pointer-events-none absolute top-0 botttt h-[70vh] flex flex-col justify-center items-center">
-                            <h1 className="hd text-white font-medium text-3xl md:text-5xl shadow-xl mb-8 toppp">End User Services</h1>
+                            <h1 className="hd text-white font-medium text-3xl md:text-5xl  mb-8 toppp">End User Services</h1>
                             <p className="text-white font-light text-center w-10/12 -mt-6 opacity-75 mb-5">We provide world class Networking, Infrastructure, Computing & so many other services</p>
                             <Link className="bg-white md:scale-90 hover:scale-95 anim pointer-events-auto text-tqred px-12 py-3 md:py-4 text-sm md:text-base" to='/end-user-services'>Learn More</Link>
                         </motion.div> 
@@ -107,7 +107,7 @@ const Home = () => {
                         whileInView={{opacity:1, y:0}}
                         transition={{duration:1}}
                         className="w-full md:mt-12 pointer-events-none absolute top-0 botttt h-[70vh] flex flex-col justify-center items-center">
-                            <h1 className="hd text-white font-medium text-3xl md:text-5xl shadow-xl mb-8 toppp">Software Development Services</h1>
+                            <h1 className="hd text-white font-medium text-3xl md:text-5xl  mb-8 toppp">Software Development Services</h1>
                             <p className="text-white font-light text-center w-10/12 -mt-6 opacity-75 mb-5">We provide world class Networking, Infrastructure, Computing & so many other services</p>
                             <Link className="bg-white md:scale-90 hover:scale-95 anim pointer-events-auto text-tqred px-12 py-3 md:py-4 text-sm md:text-base" to='/software-development'>Learn More</Link>
                         </motion.div> 

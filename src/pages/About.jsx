@@ -34,7 +34,7 @@ const About = () => {
                     whileInView={{opacity:'100', y:0}}
                     transition={{duration:.6}}
                     className="w-full md:mt-16 pointer-events-none absolute top-0 botttt h-[40vh] flex flex-col justify-center items-center">
-                        <h1 className="hd text-white font-medium text-3xl shadow-xl md:text-5xl mb-8 topppp">About Teqinfinity INC</h1>
+                        <h1 className="hd text-white font-medium text-3xl md:text-5xl mb-8 topppp">About Teqinfinity INC</h1>
                         <p className="text-white font-light text-center w-10/12 -mt-6 opacity-75 mb-5">We provide world class Networking, Infrastructure, Computing & so many other services</p>
                     </motion.div> 
                 </div>
