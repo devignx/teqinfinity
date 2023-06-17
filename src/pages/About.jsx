@@ -55,17 +55,17 @@ const About = () => {
             
             <div className="w-10/12 md:w-4/6 mt-10 md:mt-12 mb-24 mx-auto">
                 <div className="mt-8 flex flex-wrap gap-12 justify-center">
-                    <div className="flex flex-col justify-center text-center items-center gap-4 w-[20rem] h-[20rem] bg-tqred hover:scale-105 anim rounded-3xl text-white">
+                    <div className="flex flex-col justify-center text-center items-center gap-4 w-[20rem] h-[20rem] bg-tqblue hover:scale-105 anim rounded-3xl text-white">
                         <img className="w-[50px]" src={icon} />
                         <h3 className="text-2xl font-semibold">Who we are?</h3>
                         <p className="w-10/12 opacity-80">In today's fast-moving markets, companies no longer just want a vendor who responds to requests at a minimal cost </p>
                     </div>
-                    <div className="flex flex-col justify-center text-center items-center gap-4 w-[20rem] h-[20rem] bg-tqred hover:scale-105 anim rounded-3xl text-white">
+                    <div className="flex flex-col justify-center text-center items-center gap-4 w-[20rem] h-[20rem] bg-tqblue hover:scale-105 anim rounded-3xl text-white">
                         <VscCompassActive size='50px'/>
                         <h3 className="text-2xl font-semibold">What do we provide?</h3>
                         <p className="w-10/12 opacity-80">In today's fast-moving markets, companies no longer just want a vendor who responds to requests at a minimal cost </p>
                     </div>
-                    <div className="flex flex-col justify-center text-center items-center gap-4 w-[20rem] h-[20rem] bg-tqred hover:scale-105 anim rounded-3xl text-white">
+                    <div className="flex flex-col justify-center text-center items-center gap-4 w-[20rem] h-[20rem] bg-tqblue hover:scale-105 anim rounded-3xl text-white">
                         <VscGift size='50px'/>
                         <h3 className="text-2xl font-semibold">Why Us?</h3>
                         <p className="w-10/12 opacity-80">In today's fast-moving markets, companies no longer just want a vendor who responds to requests at a minimal cost </p>

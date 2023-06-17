@@ -9,9 +9,6 @@ import { useState } from "react";
 const Nav = () => {
 
     const [mobNav,setMobNav] = useState(false);
-    const scrolldown = () => {
-        window.scrollTo({top: 10000, left: 0, behavior: 'smooth'});
-    }
 
     return(
         <>
@@ -21,18 +18,18 @@ const Nav = () => {
                     <Link to='/' className={`text-lg py-6 target:text-tqred hover:text-tqred anim`}>Home</Link>
                     <Link to='/about-us' id='about-us' className="text-lg py-6 target:text-tqred hover:text-tqred anim">About Us</Link>
                     <div className="relative peer py-6">
-                        <Link to='/services' className="text-lg peer py-6 h-max active:text-tqred hover:text-tqred anim">Services <span className="text-xs ">+</span></Link>
+                        <Link to='/network-services' className="text-lg peer py-6 h-max active:text-tqred hover:text-tqred anim">Services <span className="text-xs ">+</span></Link>
                         <div className="flex flex-col overflow-hidden text-sm topppp -translate-y-[160px] peer-hover:translate-y-0 min-w-[250px] peer-hover:scale-y-100 hover:scale-100 hover:opacity-100 hover:translate-y-0 scale-y-0 opacity-0 peer-hover:opacity-100 anim absolute rounded-2xl rounded-tr-none drop-shadow-lg top-0 right-0 mt-16 anim bg-[#f9f6ff] w-max">
-                            <Link to='/network-services' className="py-4 px-6 hover:bg-tqred hover:text-white anim border-b border-tqred/10">Network Services</Link>
-                            <Link to='/cloud-services' className="py-4 px-6 h-max hover:bg-tqred hover:text-white anim border-b border-tqred/10">Cloud Services</Link>
-                            <Link to='/datacenter-services' className="py-4 px-6 hover:bg-tqred hover:text-white anim border-b border-tqred/10">Datacenter Infrastructure Services</Link>
-                            <Link to='/end-user-services' className="py-4 px-6 hover:bg-tqred hover:text-white anim">End User Services</Link>
-                            <Link to='/software-development' className="py-4 px-6 hover:bg-tqred hover:text-white anim border-b border-tqred/10">Software Development</Link>
-                            {/* <Link to='/it-staff-augmentation' className="py-4 px-6 hover:bg-tqred hover:text-white anim">IT Staff Augmentation</Link>
-                            <Link to='/training' className="py-4 px-6 hover:bg-tqred hover:text-white anim">Training</Link> */}
+                            <Link to='/network-services' className="py-4 px-6 hover:bg-tqblue hover:text-white anim border-b border-tqred/10">Network Services</Link>
+                            <Link to='/cloud-services' className="py-4 px-6 h-max hover:bg-tqblue hover:text-white anim border-b border-tqred/10">Cloud Services</Link>
+                            <Link to='/datacenter-services' className="py-4 px-6 hover:bg-tqblue hover:text-white anim border-b border-tqred/10">Datacenter Infrastructure Services</Link>
+                            <Link to='/end-user-services' className="py-4 px-6 hover:bg-tqblue hover:text-white border-b anim">End User Services</Link>
+                            <Link to='/software-development' className="py-4 px-6 hover:bg-tqblue hover:text-white anim border-tqred/10">Software Development</Link>
+                            {/* <Link to='/it-staff-augmentation' className="py-4 px-6 hover:bg-tqblue hover:text-white anim">IT Staff Augmentation</Link>
+                            <Link to='/training' className="py-4 px-6 hover:bg-tqblue hover:text-white anim">Training</Link> */}
                         </div>
                     </div>
-                    <button onClick={scrolldown} className="text-lg py-6 active:text-tqred hover:text-tqred anim">Contact</button>
+                    <Link to='/contact' className="text-lg py-6 active:text-tqred hover:text-tqred anim">Contact</Link>
                 </div>
             </div>
             <div className="topppp ">

@@ -8,7 +8,7 @@ import {IoLogoWhatsapp} from 'react-icons/io'
 const Footer = () => {
 
     return(
-        <div className="bg-tqred mt-12 md:h-[50vh]">
+        <div className="bg-tqblue mt-12 md:min-h-[50vh]">
             <div className="flex scale-100 md:scale-90 pt-16 gap-16 px-12 overflow-hidden text-white flex-col md:flex-row md:justify-between py-6 w-full">
                 <div className="flex flex-col  items-center scale-90 md:scale-100">
                     <img className="h-8 md:h-6 object-contain" src={logo} />
@@ -24,7 +24,7 @@ const Footer = () => {
                     <div className="flex flex-col mx-auto text-white/70 items-center md:items-start gap-4">
                         <Link to='/' className="font-medium uppercase text-sm  anim">Home</Link>
                         <Link to='/about-us' className="font-medium uppercase text-sm  anim">About Us</Link>
-                        <Link to='/services' className="font-medium uppercase text-sm  anim">Services</Link>
+                        {/* <Link to='/services' className="font-medium uppercase text-sm  anim">Services</Link> */}
                         <Link to='/contact' className="font-medium uppercase text-sm  anim">Contact</Link>
                     </div>
                 </div>

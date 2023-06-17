@@ -5,6 +5,9 @@ import DatacenterServices from './pages/services/DatacenterServices'
 import EndUserServices from './pages/services/EndUserServices'
 import CloudServices from './pages/services/CloudServices'
 import SoftwareDevelopment from './pages/services/SoftwareDevelopment'
+import Contact from './pages/Contact';
+
+
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -13,6 +16,7 @@ function App() {
       <Routes>
         <Route element={<Home/>} path="/"/>
         <Route element={<About/>} path="/about-us"/>
+        <Route element={<Contact/>} path="/contact"/>
         <Route element={<NetworkServices/>} path="/network-services"/>
         <Route path='/network-services' element={<NetworkServices/>}/>
         <Route path='/cloud-services' element={<CloudServices/>}/>
